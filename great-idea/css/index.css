@@ -65,140 +65,99 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-.container {
-	height: 1600px;
+.container { 
+	height: 1400px;
 	width: 880px;
-	display: block;
+	/*display: block;*/
 	margin: 0 auto;
 }
 
 /*Navigation===============================================*/
 .navigationBar {
-	width: 875px;
+	height: 60px;
+	width: 880px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .navigationBar nav {
-	margin-right: 155px;
-	display: inline-flex;
+	align-self: center;
 }
 
 .navigationBar img {
-	display: inline-flex;
+	align-self: center;
+	justify-self: flex-end;
 }
 
 .navigationBar nav a {
-	margin: 0px 35px 0px 0px;
+	justify-self: flex-start;
+	margin: 0px 55px 0px 0px;
 	color: grey;
 }
 
 /*Header==================================================*/
 header {
-	width: 875px;
-	height: 550px;
+	width: 880px;
+	height: 450px;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .header h1 {
-	text-align: center;
-	vertical-align: top;
-	height: 400px;
-	font-size: 60px;
-	position: relative;
-	width: 435px;
-	/*display: inline-block;*/
-	/*margin: 150px 0px 0px 0px;*/
+	font-size: 70px;
 	margin: auto;
+	text-align: center;
 }
 
-.header img {
-	position: relative;
-	width: 375px;
-	height: 375px;
-	display: inline-block;
-	display: flex;
-	margin: 70px 0px 0px 0px;
-}
-
-.header button {
-	display: none;
+.header button{
+	border: 1px solid black;
+	width: 155px;
+	height: 30px;
 }
 
 /*TopContent===============================================*/
 .topContent {
-	width: 875px;
-	height: 135px;
-	display: block;
-	margin: 30px 0px 0px 0px;
-}
-
-.topContent .leftDiv {
-	width: 430px;
-	height: 100px;
-	display: inline-block;
-	position: relative;
-	margin-right: 10px;
-}
-
-.topContent .rightDiv {
-	width: 430px;
-	height: 100px;
-	display: inline-block;
-	position: relative;
+	width: 880px;
+	height: 160px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 /*BodyIMG==================================================*/
 .bodyImg {
-	display: block;
-}
-
-.imgDiv{
-	display: block;
+	display: flex;
 }
 
 /*BottomContent============================================*/
 
 .bottomContent {
-	width: 875px;
-	height: 150px;
-	display: block;
-	margin: 30px 0px 0px 0px;
+	width: 880px;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.bottomContent .divOne {
-	display: inline-block;
-	position: relative;
-	width: 285px;
-	height: 200;
-}
-
-.bottomContent .divTwo {
-	display: inline-block;
-	position: relative;
-	width: 285px;
-	height: 200;
-}
-
-.bottomContent .divThree {
-	display: inline-block;
-	position: relative;
-	width: 285px;
-	height: 200;
+.divOne, .divTwo, .divThree {
+	width: 30%;
 }
 
 /*Contact=================================================*/
 .contactContent {
-	width: 875px;
-	height: 150px;
-	display: block;
-	margin: 30px 0px 0px 0px;
+	width: 880px;
+	height: 200px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin: 40px 0px 0px 0px;
 }
 
 /*Footer==================================================*/
 footer {
-	text-align: center;
-	width: 875px;
-	height: 150px;
-	display: block;
-	margin: 30px 0px 0px 0px;
+	justify-content: center;
+	align-content: flex-end;
+	display: flex;
 	color: grey;
 }
