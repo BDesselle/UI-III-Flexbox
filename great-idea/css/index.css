@@ -79,11 +79,11 @@ h1, h2, h3, h4, h5 {
 
 .navigationBar nav {
 	margin-right: 155px;
-	display: inline;
+	display: inline-flex;
 }
 
 .navigationBar img {
-	display: inline;
+	display: inline-flex;
 }
 
 .navigationBar nav a {
@@ -95,25 +95,32 @@ h1, h2, h3, h4, h5 {
 header {
 	width: 875px;
 	height: 550px;
-	display: block;
+	display: flex;
 }
 
 .header h1 {
 	text-align: center;
 	vertical-align: top;
 	height: 400px;
-	font-size: 70px;
+	font-size: 60px;
 	position: relative;
 	width: 435px;
-	display: inline-block;
-	margin: 150px 0px 0px 0px;
+	/*display: inline-block;*/
+	/*margin: 150px 0px 0px 0px;*/
+	margin: auto;
 }
 
 .header img {
 	position: relative;
-	width: 435px;
+	width: 375px;
+	height: 375px;
 	display: inline-block;
+	display: flex;
 	margin: 70px 0px 0px 0px;
+}
+
+.header button {
+	display: none;
 }
 
 /*TopContent===============================================*/
