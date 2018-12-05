@@ -67,6 +67,31 @@ h1, h2, h3, h4, h5 {
 
 .container { 
 	height: 1800px;
-	width: 880px;
+	width: 890px;
 	margin: 0 auto;
 }
+
+/*Navigation===============================================*/
+.navigationBar {
+	height: 60px;
+	width: 880px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigationBar nav {
+	align-self: center;
+}
+
+.navigationBar img {
+	align-self: center;
+	justify-self: flex-end;
+}
+
+.navigationBar nav a {
+	justify-self: flex-start;
+	margin: 0px 55px 0px 0px;
+	color: grey;
+}
+
+/*Top IMG==================================================*/
